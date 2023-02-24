@@ -48,6 +48,7 @@ from payment
 group by customer_id > 380 and customer_id < 430
 having COUNT(rental_id) > 250
 limit 1;
+-- 13,394
 
 select COUNT(distinct rating)
 from film
